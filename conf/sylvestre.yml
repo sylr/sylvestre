@@ -1,0 +1,14 @@
+listening-addresses:
+- 0.0.0.0
+listening-port: 8080
+http-timeout: 10
+https-insecure: false
+modules:
+  jira:
+    slack:
+      token: slackpwet
+    jira:
+      token: jirapwet
+  whoami:
+    slack:
+      token: 
